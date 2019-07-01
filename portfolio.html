@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header role="header" id="header-nav">
+        <div class = "group">
+            <div class="logo">
+                <a href="index.html">TENZIN NGAWANG</a>
+            </div>
+            <nav class="navbar" role="navigation">
+                <div class="hamburger">&#9776;</div>
+                <div class="menu">
+                    <div class="nav-link-wrapper">    
+                        <a href="about.html">About Me</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>  
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main role="main">
+        <div class="intro">
+            <header class="intro-bio">
+                <h1>Front End Developer</h1>
+                <h2 class = "subtitle">An aspiring front-end web developer a curious tinker and a part-time philosopher </h2>
+            </header>
+            <a id="portfolio-btn" href="#all-projects">View Portfolio</a>   
+        </div>
+        <section class="featured work">
+            <ul  id="all-projects">
+                <li class = "projects">
+                        <h2>How much do you know about football</h2>
+                    <a href="https://tenzin1010.github.io/soccer-quiz/">
+                        <img src="/image/quiz-app.jpg" id="quiz-screenshot" alt="screenshot quiz app">
+                    </a>
+                    <div class="projects-details">
+                        <ul>
+                            <li>This is a 10 question quiz app testing your soccer/football knowledge. The functions are re-useable, 
+                                the number of questions can be changed without affecting the result. Click "Kick Off" to give it a try.</li>
+                            <li>Skills utilized: HTML, CSS, JavaScript, JQuery</li>
+                            <li>
+                               <a href="https://tenzin1010.github.io/soccer-quiz/">Here's a link to the live app</a> 
+                            </li>
+                            <li>
+                                <a href="https://github.com/Tenzin1010/soccer-quiz">Checkout my code on Github</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-video-clip">
+                        <video class="soccer-quiz-video-clip" controls>
+                            <source src="/image/soccer-quiz-clip.mp4" type="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div> 
+                </li>
+                <li class = "projects">
+                    <h2>Are you Interested to attend an Event</h2>
+                <a href="https://tenzin1010.github.io/soccer-quiz/">
+                    <img src="image/search-screen-snap.PNG" id="quiz-screenshot" alt="screenshot quiz app">
+                </a>
+                <div class="projects-details">
+                    <ul>
+                        <li>This application uses GET from the Ticketmaster API. It takes in 3 required input and returns a list of events. The response is details of the events as well as a link to purchase tickets.</li>
+                        <li>Skills utilized: HTML, CSS, JavaScript, JQuery</li>
+                        <li>
+                           <a href="https://tenzin1010.github.io/Event-look-up/">Here's a link to the live app</a> 
+                        </li>
+                        <li>
+                            <a href="https://github.com/Tenzin1010/Event-look-up">Checkout my code on Github</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="portfolio-video-clip">
+                    <video class="soccer-quiz-video-clip" controls>
+                        <source src="image/event-look-up-clip.mp4" type="video/mp4">
+                        Your browser does not support the video tag
+                    </video>
+                </div> 
+            </li>            
+            </ul>
+        </section>
+    </main>
+    <footer class="footer-group">
+        <div class="social-links">
+            <ul class="social-footer-icons">
+                <li>
+                    <a href="https://github.com/Tenzin1010">
+                        <img src="/image/GitHub-Mark-64px.png" alt="github logo">
+                    </a>  
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/tenzinngawang1">
+                        <img src="/image/linkedin-logo-black.png" alt="linkedin logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="tenzin.ngawang0@gmail.com">
+                        <img src="/image/email.png" alt="email logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="index.js"></script> 
+</body>
+</html>
